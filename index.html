@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220130200319">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <canvas></canvas>
+    <div class="header__menu lock-padding">
+        <div class="header__container">
+            <div class="header__inner">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Головна</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#about">Про мне</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#portfolio">Портфоліо</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#skills">Мої навички</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#contacts">Контакти</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link menu__list-link--active" href="#">uk</a>/
+                            <a class="menu__list-link" href="#">ru</a>
+                        </li>
+                    </ul>
+                </nav>
+              <a class="header__phone" href="tel:tel:+380633255763"><span class="_icon-footer-phone">Связаться</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="header__container">
+        <div class="header__content content-header">
+            <div class="content-header__title">
+                <picture><source srcset="img/title.webp" type="image/webp"><img src="img/title.png" alt="Title"></picture>
+            </div>
+            <div class="header__slider slider-header swiper">
+                <div class="slider-header__body swiper-wrapper">
+                    <div class="slider-header__slide swiper-slide">
+                        <p>HTML</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>CSS</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>SCSS</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>jQuery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="icon-menu">
+            <img src="img/burger.svg" alt="Burger menu">
+        </button>
+    </div>
+</header>
+        <main class="page">
+            <div class="page__about about" id="about">
+                <div class="about__container">
+                    <div class="about__wrapper">
+                        <div class="about__content content-about">
+                            <div class="content-about__title title">
+                                <picture><source srcset="img/about-title.webp" type="image/webp"><img src="img/about-title.png" alt="About title"></picture>
+                            </div>
+                            <div class="content-about__text">
+                                Приветствую Вас на своем сайте-портфолио. Меня зовут Алескей. Живу в Москве. Занимаюсь
+                                HTML-версткой сайтов. У меня полностью кроссбраузерная, адаптивная и валидная верстка.
+                                Для обеспечения выполнения требований, предъявляемых к верстке сайта в процессе работы
+                                над проектом я использую сборщик проектов Gulp для автоматизации процесса верстки,
+                                препроцессоры Less/Sass для ускоренной стилизации сайта и более гибкого кода,
+                                шаблонизатор Pug, Pixel Perfect для верстки, совпадающей с предоставленным макетом
+                                «пиксель в пиксель», БЭМ, Bootstrap, Smartgrid и media-запросы для адаптивной верстки
+                                сайта. Динамика сайта организуется собственным jQuery кодом или настроенными плагинами.
+                                В конце работы осуществляется проверка отображения верстки в различных браузерах на
+                                разных устройствах, код проверяется валидатором на соответствие стандартам и устраняются
+                                выявленные ошибки.
+                            </div>
+                        </div>
+                        <div class="about__avatar wow animate__animated animate__flipInX _ibg" data-wow-offset="650">
+                            <picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="Avatar Image"></picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page__skills skills" id="skills">
+                <div class="skills__container">
+                    <div class="skills__title title">
+                        <picture><source srcset="img/skills-title.webp" type="image/webp"><img src="img/skills-title.png" alt="Skills Title"></picture>
+                    </div>
+                </div>
+                <div class="skills__slider slider-skills swiper">
+                    <div class="slider-skills__body swiper-wrapper">
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image _ibg">
+                                <picture><source srcset="img/skills/01.webp" type="image/webp"><img src="img/skills/01.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">HTML</div>
+                                <div class="slider-skills__text">
+                                    Я создаю семантическую и адаптивную верстку, при помощи последних разработок в
+                                    HTML и CSS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image _ibg">
+                                <picture><source srcset="img/skills/02.webp" type="image/webp"><img src="img/skills/02.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">HTML</div>
+                                <div class="slider-skills__text">
+                                    Я создаю семантическую и адаптивную верстку, при помощи последних разработок в
+                                    HTML и CSS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image _ibg">
+                                <picture><source srcset="img/skills/03.webp" type="image/webp"><img src="img/skills/03.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">HTML</div>
+                                <div class="slider-skills__text">
+                                    Я создаю семантическую и адаптивную верстку, при помощи последних разработок в
+                                    HTML и CSS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image _ibg">
+                                <picture><source srcset="img/skills/01.webp" type="image/webp"><img src="img/skills/01.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">HTML</div>
+                                <div class="slider-skills__text">
+                                    Я создаю семантическую и адаптивную верстку, при помощи последних разработок в
+                                    HTML и CSS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image _ibg">
+                                <picture><source srcset="img/skills/02.webp" type="image/webp"><img src="img/skills/02.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">HTML</div>
+                                <div class="slider-skills__text">
+                                    Я создаю семантическую и адаптивную верстку, при помощи последних разработок в
+                                    HTML и CSS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image _ibg">
+                                <picture><source srcset="img/skills/03.webp" type="image/webp"><img src="img/skills/03.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">HTML</div>
+                                <div class="slider-skills__text">
+                                    Я создаю семантическую и адаптивную верстку, при помощи последних разработок в
+                                    HTML и CSS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-skills__arrows slider-arrows">
+                        <button class="slider-arrow slider-arrow_prev" type="button">
+                            <svg width="36" height="32" viewBox="0 0 36 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="slider-arrow__path" d="M35 16L1 16M1 16L15.875 30.875M1 16L15.875 1.125"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="slider-arrow slider-arrow_next" type="button">
+                            <svg width="36" height="32" viewBox="0 0 36 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="slider-arrow__path" d="M1 16H35M35 16L20.125 1.125M35 16L20.125 30.875"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="page__portfolio portfolio" id="portfolio">
+                <div class="portfolio__container">
+                    <div class="portfolio__title title">
+                        <picture><source srcset="img/portfolio-title.webp" type="image/webp"><img src="img/portfolio-title.png" alt="Portfolio Title"></picture>
+                    </div>
+                    <div class="portfolio__content content-portfolio">
+                        <div class="content-portfolio__item" style="background-image: url(img/site/01.jpg);">
+                            <a class="content-portfolio__link button popup-link" href="#popup-menu">Посмотреть</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/02.jpg);">
+                            <a class="content-portfolio__link button" href="#">Посмотреть</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/02.jpg);">
+                            <a class="content-portfolio__link button" href="#">Посмотреть</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/01.jpg);">
+                            <a class="content-portfolio__link button" href="#">Посмотреть</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/01.jpg);">
+                            <a class="content-portfolio__link button" href="#">Посмотреть</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/02.jpg);">
+                            <a class="content-portfolio__link button" href="#">Посмотреть</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page__contacts contacts" id="contacts">
+                <div class="contacts__wrapper">
+                    <div class="contacts__container">
+                        <div class="contacts__title title">
+                            <picture><source srcset="img/contacts-title.webp" type="image/webp"><img src="img/contacts-title.png" alt="Contacts Title"></picture>
+                        </div>
+                    </div>
+                    <div class="contacts__box">
+                        <a class="contacts__box-item contacts__box-item--tel" href="tel:+380633255763">+380 (63) 325 57
+                            63</a>
+                        <a class="contacts__box-item contacts__box-item--telegram" target="_blank"
+                            href="https://t.me/oleggal1969">https://t.me/oleggal1969</a>
+                        <a class="contacts__box-item contacts__box-item--email"
+                            href="mailto:oleggal1969@gmail.com">oleggal1969@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <nav class="footer-menu">
+            <ul class="footer-menu__list">
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#">Головна</a>
+                </li>
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#about">Про мне</a>
+                </li>
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#portfolio">Портфоліо</a>
+                </li>
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#skills">Мої навички</a>
+                </li>
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#contacts">Контакти</a>
+                </li>
+                <li class="footer-menu__list-item footer__lang">
+                    <a class="footer-menu__list-link footer-menu__list-link--active" href="#">uk</a>/
+                    <a class="footer-menu__list-link" href="#">ru</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+    </div>
+    
+
+    <script src="js/app.min.js?_v=20220130200319"></script>
+</body>
+
+</html>
